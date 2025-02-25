@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(246, 240, 238);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+#formulario{
+    background-color: rgb(219, 220, 180);
+    padding: 20px;
+    border-radius: 8px;
+    margin: 5px;
+    box-shadow: 1px 1px 10px black;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+
+}
+
+label.inLine{
+    display: inline-block;
+}
+
+input,select{
+    padding: 8px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"]{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select{
+    width: 100%;
+}
+input[type="submit"]{
+    background-color: rgb(153, 195, 153);
+    border-radius: 5px;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    transition: .5s;
+}
+input[type="submit"]:hover{
+    background-color: rgb(115, 146, 115);
+}
+
+.error{
+    color: red;
+    font-size: 10px;
+}
